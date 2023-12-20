@@ -122,13 +122,12 @@
 				</configuration>
 			</plugin>
 
-    <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-war-plugin</artifactId>
-            <version>3.8.4</version> <!-- Use a more recent version -->
-        </plugin>
-    </plugins>
+       			 <plugin>
+       			        <groupId>org.apache.maven.plugins</groupId>
+       			        <artifactId>maven-war-plugin</artifactId>
+        		        <version>3.8.4</version> <!-- Use a more recent version -->
+      			 </plugin>
+    
 			<plugin>
 				<groupId>org.eclipse.jetty</groupId>
 				<artifactId>jetty-maven-plugin</artifactId>
