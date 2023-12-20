@@ -123,10 +123,10 @@
 			</plugin>
 
        			 <plugin>
-       			        <groupId>org.apache.maven.plugins</groupId>
-       			        <artifactId>maven-war-plugin</artifactId>
-        		        <version>3.8.4</version> <!-- Use a more recent version -->
-      			 </plugin>
+   				<groupId>org.apache.maven.plugins</groupId>
+ 			        <artifactId>maven-war-plugin</artifactId>
+  				<version>3.3.2</version> <!-- Use a version available in your repository -->
+			 </plugin>
     
 			<plugin>
 				<groupId>org.eclipse.jetty</groupId>
