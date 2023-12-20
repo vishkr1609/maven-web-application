@@ -122,7 +122,6 @@
 				</configuration>
 			</plugin>
 
-			<build>
     <plugins>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
@@ -130,7 +129,6 @@
             <version>3.8.4</version> <!-- Use a more recent version -->
         </plugin>
     </plugins>
-</build>
 			<plugin>
 				<groupId>org.eclipse.jetty</groupId>
 				<artifactId>jetty-maven-plugin</artifactId>
